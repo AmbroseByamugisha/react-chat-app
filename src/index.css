@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: slategrey;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#group-btn {
+  cursor: pointer;
+}
+
+#contact-name {
+  cursor: pointer;
+  background-color: bisque;
+}
+
+#contact_item {
+  cursor: pointer;
+}
+
+p:hover {
+  background-color: bisque;
+}
+span {
+  margin-right: 5px;
 }
